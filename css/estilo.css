@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;    
+    font-family: 'Play', sans-serif;
+}
+
+#container{
+    display: block;
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 500px;
+}
+
+img{
+    width: 10%;
+    display: block; margin-left: auto; margin-right: auto; margin-top: 200px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    font-size: xx-large;
+}
+
+td,th{
+    border: 1px solid #000;
+}
+
+.fundo_total{
+    background-color: #000;
+    color: #fff;
+}
+
+.positivo{
+    background-color: rgb(130, 193, 235);
+}
+
+.negativo{
+    background-color: rgb(255, 151, 125);
+}
+
+tr{
+    width: 100%;
+}
+
+th, td{
+    margin: auto;
+    padding: 10px;
+}
+
+thead, .fundo_total{
+    font-size: large;
+}
+
+tr:hover 
+{font-weight: bold;}
+
+td:hover 
+{border: solid 3px rgb(0, 26, 255); 
+font-size: large;
+font-weight: bold;
+}
+
+@media only screen and (min-width: 1200px){
+    #container {width:97%;}
+    table thead tr td {width:80%; padding: 15px;}
+    table tbody tr td {width:auto; padding: 15px;}  
+}
+
